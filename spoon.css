@@ -7,10 +7,11 @@ body{
   position: relative;
   top: 200px
   bottom: 200px;
-  transition: all 800ms ease 0s;
+  
 }
 
 .spoon:hover {
+  transition: all 800ms ease 0s;
   transform: rotate(540deg) ;
  
 }
