@@ -503,10 +503,14 @@ background-color: #BDFF00;
     top: 2300px;
 }
 
+.letteri:hover {
+	filter: blur(20px);
+}
+
 .i1{
 	width: 100px;
     height: 350px;
-    background-color: black;
+    background-color: #BDFF00;
     border-radius: 30px 0px 30px 0px;
     position: absolute;
     left: 800px;
@@ -517,7 +521,7 @@ background-color: #BDFF00;
 .i2{
 	width: 100px;
     height: 50px;
-    background-color: black;
+    background-color: #BDFF00;
     border-radius: 30px 0px 30px 0px;
     position: absolute;
     left: 800px;
@@ -528,7 +532,7 @@ background-color: #BDFF00;
 .i3{
 	width: 100px;
     height: 50px;
-    background-color: black;
+    background-color: #BDFF00;
     border-radius: 0px 30px 0px 30px;
     position: absolute;
     left: 800px;
@@ -539,7 +543,7 @@ background-color: #BDFF00;
 .i4{
 	width: 50px;
     height: 50px;
-    background-color: black;
+    background-color: #BDFF00;
     border-radius: 30px 0px 30px 0px;
     position: absolute;
     left: 900px;
@@ -547,10 +551,13 @@ background-color: #BDFF00;
     top: 2350px;
 }
 
+.lettero:hover {
+	filter: blur(20px);
+
 .o1{
 	width: 200px;
     height: 50px;
-    background-color: black;
+    background-color: #BDFF00;
     border-radius: 30px 30px 0px 0px;
     position: absolute;
     left: 300px;
@@ -561,7 +568,7 @@ background-color: #BDFF00;
 .o2{
 	width: 100px;
     height: 50px;
-    background-color: black;
+    background-color: #BDFF00;
     border-radius: 30px 0px 30px 0px;
     position: absolute;
     left: 250px;
@@ -572,7 +579,7 @@ background-color: #BDFF00;
 .o3{
 	width: 100px;
     height: 50px;
-    background-color: black;
+    background-color: #BDFF00;
     border-radius: 0px 30px 0px 30px;
     position: absolute;
     left: 450px;
@@ -583,7 +590,7 @@ background-color: #BDFF00;
 .o4{
 	width: 100px;
     height: 200px;
-    background-color: black;
+    background-color: #BDFF00;
     border-radius: 30px 0px 0px 30px;
     position: absolute;
     left: 200px;
@@ -594,7 +601,7 @@ background-color: #BDFF00;
 .o5{
 	width: 100px;
     height: 200px;
-    background-color: black;
+    background-color: #BDFF00;
     border-radius: 0px 30px 30px 0px;
     position: absolute;
     left: 500px;
@@ -605,7 +612,7 @@ background-color: #BDFF00;
 .o6{
 	width: 100px;
     height: 50px;
-    background-color: black;
+    background-color: #BDFF00;
     border-radius: 0px 30px 0px 30px;
     position: absolute;
     left: 250px;
@@ -616,7 +623,7 @@ background-color: #BDFF00;
 .o7{
 	width: 100px;
     height: 50px;
-    background-color: black;
+    background-color: #BDFF00;
     border-radius: 30px 0px 30px 0px;
     position: absolute;
     left: 450px;
@@ -627,7 +634,7 @@ background-color: #BDFF00;
 .o8{
 	width: 200px;
     height: 50px;
-    background-color: black;
+    background-color: #BDFF00;
     border-radius: 00px 0px 30px 30px;
     position: absolute;
     left: 300px;
