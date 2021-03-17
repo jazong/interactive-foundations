@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Neue Machina";
+  src: url("fonts/NeueMachina-Regular.otf") format("opentype"),
+  		url("fonts/NeueMachina-Ultrabold.otf") format("opentype"),
+}
+
+body{
+	font-family: 'NeueMachina-Regular', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	margin: 0;
+}
+
+main{
+	margin: 1rem;
+	max-width: 60%;
+	margin: auto;
+}
+
+h1,h2,h3 {
+	font-family: 'NeueMachina-Ultrabold', sans-serif;
+	font-weight: normal;
+}
+
+h1{
+	font-size: 5rem;
+}
+
+
+h2 {
+	font-size: 4rem;
+}
+
+.color{
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+}
+
+.palette{
+	display: flex;
+}
+
+.primary{
+	flex: 2;
+	background: blue;
+}
+
+.secondary, .tertiary{
+	flex: 1;
+}
+
+.secondary{
+	background: red;
+}
+
+.tertiary{
+	background: rgb(0,255,0);
+}

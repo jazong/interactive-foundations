@@ -1,0 +1,133 @@
+.box{
+	background-color: #F6BA6E;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 0.5em;
+	height: 100px;
+	flex:9;
+}
+
+.box: second-child {
+	flex-grow: 2;
+	background-color: #F6BA6E;
+}
+
+.spoonbill{
+	background-color: #FFFFFF;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 0.5em;
+	height: 150px;
+}
+
+.spoonbill: first-child{
+	width: 150px;
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center; 
+	height: 20vh;
+}
+
+.div{
+	padding-bottom: 150px
+}
+
+.cropped1 {
+    width: 773px; /* width of container */
+    height: 150px; /* height of container */
+    object-fit: cover;
+}
+
+.cropped2 {
+    width: 773px; /* width of container */
+    height: 150px; /* height of container */
+    object-fit: cover;
+    object-position: 20% 30%;
+}
+
+.cropped3 {
+    width: 773px; /* width of container */
+    height: 150px; /* height of container */
+    object-fit: cover;
+    object-position: 20% 40%;
+}
+
+.cropped4 {
+    width: 773px; /* width of container */
+    height: 150px; /* height of container */
+    object-fit: cover;
+    object-position: 20% 40%;
+}
+
+.cropped5 {
+    width: 773px; /* width of container */
+    height: 150px; /* height of container */
+    object-fit: cover;
+    object-position: 20% 30%;
+}
+
+.cropped6 {
+    width: 773px; /* width of container */
+    height: 150px; /* height of container */
+    object-fit: cover;
+    object-position: 20% 30%;
+}
+
+dl {
+  margin: 0;
+  padding: 24px 0 0 0;
+}
+
+dt {
+  margin: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+}
+
+@font-face {
+  font-family: "Migra";
+  src: url("fonts/Migra-Extrabold.ttf") format("truetype"),
+  		url("fonts/Migra-Extralight.ttf") format("truetype"),
+  		url("fonts/MigraItalic-ExtraboldItalic.ttf") format("truetype");
+}
+
+body{
+	font-family: 'Migra-Extralight', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	margin: 0;
+}
+
+main{
+	margin: 1rem;
+	max-width: 60%;
+	margin: auto;
+}
+
+h1,h2 {
+	font-family: 'MigraItalic-ExtraboldItalic', sans-serif;
+	font-weight: normal;
+}
+
+h3 {
+	font-family: 'Migra-Extrabold', sans-serif;
+	font-weight: normal;
+}
+
+.h3:hover{
+	background color: #99CADD;
+}
+
+h1{
+	font-size: 1rem;
+	text-decoration: underline;
+}
+
+
+h5 {
+	font-size: 4rem;
+}
