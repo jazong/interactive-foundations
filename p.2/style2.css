@@ -1,19 +1,60 @@
 .box{
-	background-color: #F6BA6E;
+	background-color: #D2EE58;
 	border: 1px solid black;
 	box-sizing: border-box;
 	padding: 0.5em;
 	height: 100px;
-	flex:9;
+	width: 110px;
 }
 
-.box: second-child {
-	flex-grow: 2;
-	background-color: #F6BA6E;
+.box:last-child {
+	flex-grow: 4;
+	background-color: #D2EE58;
+	text-align: center;
 }
 
 .spoonbill{
-	background-color: #FFFFFF;
+	background-color: #f6ba6e;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 0.5em;
+	height: 150px;
+}
+
+.spoonbill1{
+	background-color: #bac0d0;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 0.5em;
+	height: 150px;
+}
+
+.spoonbill2{
+	background-color: #fce346;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 0.5em;
+	height: 150px;
+}
+
+.spoonbill3{
+	background-color: #ef9f87;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 0.5em;
+	height: 150px;
+}
+
+.spoonbill4{
+	background-color: #c6b7a0;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 0.5em;
+	height: 150px;
+}
+
+.spoonbill5{
+	background-color: #fba07d;
 	border: 1px solid black;
 	box-sizing: border-box;
 	padding: 0.5em;
@@ -31,6 +72,10 @@
 	height: 20vh;
 }
 
+.space{
+	padding-bottom: 30px
+}
+
 .div{
 	padding-bottom: 150px
 }
@@ -42,35 +87,35 @@
 }
 
 .cropped2 {
-    width: 773px; /* width of container */
+    width: 787px; /* width of container */
     height: 150px; /* height of container */
     object-fit: cover;
     object-position: 20% 30%;
 }
 
 .cropped3 {
-    width: 773px; /* width of container */
+    width: 768px; /* width of container */
     height: 150px; /* height of container */
     object-fit: cover;
     object-position: 20% 40%;
 }
 
 .cropped4 {
-    width: 773px; /* width of container */
+    width: 789px; /* width of container */
     height: 150px; /* height of container */
     object-fit: cover;
     object-position: 20% 40%;
 }
 
 .cropped5 {
-    width: 773px; /* width of container */
+    width: 797px; /* width of container */
     height: 150px; /* height of container */
     object-fit: cover;
     object-position: 20% 30%;
 }
 
 .cropped6 {
-    width: 773px; /* width of container */
+    width: 781px; /* width of container */
     height: 150px; /* height of container */
     object-fit: cover;
     object-position: 20% 30%;
@@ -85,14 +130,15 @@ dt {
   margin: 0;
   position: -webkit-sticky;
   position: sticky;
-  top: -1px;
+  top: 0;
+  align-self:flex-start;
 }
 
 @font-face {
   font-family: "Migra";
-  src: url("fonts/Migra-Extrabold.ttf") format("truetype"),
-  		url("fonts/Migra-Extralight.ttf") format("truetype"),
-  		url("fonts/MigraItalic-ExtraboldItalic.ttf") format("truetype");
+  src: url("p.2/fonts/Migra-Extrabold.ttf") format("truetype"),
+  		url("p.2/fonts/Migra-Extralight.ttf") format("truetype"),
+  		url("p.2/fonts/MigraItalic-ExtraboldItalic.ttf") format("truetype");
 }
 
 body{
@@ -131,3 +177,4 @@ h1{
 h5 {
 	font-size: 4rem;
 }
+
