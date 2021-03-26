@@ -1,3 +1,51 @@
+@font-face {
+  font-family: "Migra";
+  src: url("fonts/Migra-Extrabold.ttf") format("truetype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Migra";
+  src: url("fonts/MigraItalic-ExtraboldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Migra";
+  src: url("fonts/Migra-Extralight.ttf") format("truetype");
+  font-weight: normal;
+}
+
+body{
+	font-family: 'Migra', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	margin: 0;
+}
+
+
+main{
+	margin: 1rem;
+	width: 70%;
+	margin: auto;
+}
+
+h1,h2 {
+	font-family: "Migra", serif;
+	font-weight: 800;
+	font-style: italic;
+}
+
+h3 {
+	font-family: "Migra", serif;
+	font-weight: 800;
+}
+
+/*.h3:hover{
+	background color: #99CADD;
+}*/
+
 .box{
 	background-color: #D2EE58;
 	border: 1px solid black;
@@ -12,6 +60,40 @@
 	background-color: #D2EE58;
 	text-align: center;
 }
+
+.cell{
+	border: 1px solid black;
+	box-sizing: border-box;
+	flex: 1;
+	justify-content: center;
+	padding: 0.5em;
+	height: 150px;
+}
+
+.banner{
+	height: 150px;
+	overflow: hidden;
+
+}
+.birdimg{
+	width: 100%;
+	margin-top: -120px;
+}
+
+/*#spoonbill .birdimg{
+	margin-top: -120px;
+}*/
+#spoonbill .birdname{
+	background-color: #f6ba6e;
+}
+#spoonbill .cell{
+	background-color: #f6ba6e;
+}
+
+#gull .birdname, #gull .cell{
+	background-color: #bac0d0;
+}
+
 
 .spoonbill{
 	background-color: #f6ba6e;
@@ -140,39 +222,8 @@ dt {
   align-self:flex-start;
 }
 
-@font-face {
-  font-family: "Migra";
-  src: url("p.2/fonts/Migra-Extrabold.ttf") format("truetype"),
-  		url("p.2/fonts/Migra-Extralight.ttf") format("truetype"),
-  		url("p.2/fonts/MigraItalic-ExtraboldItalic.ttf") format("truetype");
-}
 
-body{
-	font-family: 'Migra-Extralight', sans-serif;
-	font-weight: 400;
-	font-size: 18px;
-	margin: 0;
-}
 
-main{
-	margin: 1rem;
-	max-width: 60%;
-	margin: auto;
-}
-
-h1,h2 {
-	font-family: 'MigraItalic-ExtraboldItalic', sans-serif;
-	font-weight: normal;
-}
-
-h3 {
-	font-family: 'Migra-Extrabold', sans-serif;
-	font-weight: normal;
-}
-
-.h3:hover{
-	background color: #99CADD;
-}
 
 h1{
 	font-size: 1rem;
@@ -184,3 +235,8 @@ h5 {
 	font-size: 3rem;
 }
 
+@media screen and (max-width: 900px){
+	main{
+		width: 90%;
+	}
+}
