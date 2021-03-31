@@ -45,7 +45,11 @@ h3 {
 /*.h3:hover{
 	background color: #99CADD;
 }*/
-
+.label{
+	position: sticky;
+	top: 0;
+	display: flex;
+}
 .box{
 	background-color: #D2EE58;
 	border: 1px solid black;
@@ -75,9 +79,33 @@ h3 {
 	overflow: hidden;
 
 }
+
+.banner1{
+	height: 370px;
+	overflow: hidden;
+
+}
+
+.title{
+	background-color: #D2EE58
+}
+
+.birdimg3{
+	width: 100%;
+	margin-top: -120px;
+}
+
+.birdimg3:hover{
+	background-color: yellow;
+}
+
 .birdimg{
 	width: 100%;
 	margin-top: -120px;
+}
+
+#birdwatching{
+	background-color: #D2EE58
 }
 
 /*#spoonbill .birdimg{
@@ -94,53 +122,30 @@ h3 {
 	background-color: #bac0d0;
 }
 
-
-.spoonbill{
-	background-color: #f6ba6e;
-	border: 1px solid black;
-	box-sizing: border-box;
-	padding: 0.5em;
-	height: 150px;
+.birdimg1{
+	width: 100%;
+	margin-top: -160px;
 }
 
-.spoonbill1{
-	background-color: #bac0d0;
-	border: 1px solid black;
-	box-sizing: border-box;
-	padding: 0.5em;
-	height: 150px;
+.birdimg2 {
+    width: 100%;
+    margin-top: -90px;
 }
 
-.spoonbill2{
+#eastern .birdname, #eastern .cell{
 	background-color: #fce346;
-	border: 1px solid black;
-	box-sizing: border-box;
-	padding: 0.5em;
-	height: 150px;
 }
 
-.spoonbill3{
+#dowitcher .birdname, #dowitcher .cell{
 	background-color: #ef9f87;
-	border: 1px solid black;
-	box-sizing: border-box;
-	padding: 0.5em;
-	height: 150px;
 }
 
-.spoonbill4{
+#nordmann .birdname, #nordmann .cell{
 	background-color: #c6b7a0;
-	border: 1px solid black;
-	box-sizing: border-box;
-	padding: 0.5em;
-	height: 150px;
 }
 
-.spoonbill5{
+#sandpiper .birdname, #sandpiper .cell{
 	background-color: #fba07d;
-	border: 1px solid black;
-	box-sizing: border-box;
-	padding: 0.5em;
-	height: 150px;
 }
 
 .spoonbill: first-child{
