@@ -1,5 +1,66 @@
-.bluepaper {
-	background-color: #2c9cd4
-	height: 700px
-	weight: 100px;
+.blue{
+	background-color: #2c9bd6;
+	height: 1200px;
+	width: 850px;
+	align-content: center;
+}
+
+.greensquare{
+	background-color: #35864c;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+
+}
+
+#pentagon, #arrow-down1{
+	display: flex;
+}
+
+.container{
+	left: 261px;
+}
+
+.pentagon{
+    border-style: solid;
+    border-color: transparent transparent #35864c transparent;
+    border-width: 0px 131px 112px 113px;
+    height: 0;
+    width: 155px;
+    box-sizing: content-box;
+    position: relative;
+    margin: 8px 0 50px 0;
+    position: absolute;
+    top: 0px;
+    left: 310px;
+    }
+
+.arrow-down1 {
+  width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-top: 200px solid #35864c;
+    position: absolute;
+    top: 120px;
+    left: 310px;
+
+}
+
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 100px solid #35864c;
+  position: absolute;
+  top: 8px;
+
+}
+
+main{
+	margin: 1rem;
+	width: 70%;
+	margin: auto;
 }
