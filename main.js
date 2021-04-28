@@ -1,4 +1,4 @@
-console.log('dark mode');
+console.log('hello!');
 
 $(document).ready(function(){
 
@@ -8,11 +8,7 @@ $(document).ready(function(){
 	  $('.menu-bg').toggleClass('cover');
 	});
 
-	$("#darkmode").click(function(){
-		$('body').toggleClass('darkmode');
-	});
-
-	$("#containertab1").click(function(){
+	$('#darkmode').click(function(){
 		$('body').toggleClass('darkmode');
 	});
 

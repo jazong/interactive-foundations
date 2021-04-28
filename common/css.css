@@ -19,6 +19,7 @@ main {
   font-family: 'NeueMachina', sans-serif;
   font-weight: normal;
   margin: 0;
+  display: flex;
 }
 
 p{
@@ -206,7 +207,7 @@ button:hover{
 }
 
 body.darkmode {
-  background: #ff55a3;
+  background: black;
   color: white;
 
   /*  redefine a CSS variable */

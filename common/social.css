@@ -185,7 +185,7 @@ button:hover{
 }
 
 body.darkmode {
-  background: #ff55a3;
+  background: black;
   color: white;
 
   /*  redefine a CSS variable */
