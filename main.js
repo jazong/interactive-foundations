@@ -12,4 +12,8 @@ $(document).ready(function(){
 		$('body').toggleClass('darkmode');
 	});
 
+	$("#containertab1").click(function(){
+		$('body').toggleClass('darkmode');
+	});
+
 });
