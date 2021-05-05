@@ -19,13 +19,14 @@ main {
   font-family: 'NeueMachina', sans-serif;
   font-weight: normal;
   margin: 0;
-  display: flex;
 }
 
 p{
   font-family: 'NeueMachina', sans-serif;
   font-weight: bold;
 }
+
+
 
 .bluesquare {
   position: absolute;
@@ -52,6 +53,7 @@ h1 {
   font-stretch: extra-condensed;
   top: 0px;
   color:#ffd22a;
+  text-align: center;
 }
 
 .dogimg {
@@ -61,6 +63,20 @@ h1 {
     width: 200px;
     height: 200px;
     object-fit: cover;
+}
+
+.homeimg {
+  position: absolute;
+  object-fit: cover;
+  width: 90px;
+  height: 90px;
+  left: 10px;
+  top: -105px;
+}
+
+.homeimg:hover {
+  cursor: pointer;
+  color: #8cfcca;
 }
 
 h2{
@@ -143,19 +159,35 @@ nav {
   z-index: -20;
 }
 
+a{
+  text-decoration: none;
+  color: #ffd22a;
+}
+
 a:hover{
-  color: #8cfcca;
+  text-decoration: none;
+  color: #3a5cff;
+  align-items: center;
 }
 
-a:visited{
-  color: #8cfcca;
+.bluebar{
+  width: 20px;
+  height: 50px;
+  background-color: black;
 }
 
+.headbar{
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  height: 0vh;
+}
 
 
 .containertab1:hover{
   border-radius: 50px 50px 50px 50px;
-  background-color: #3a5cff;
+  background-color: #3aadff;
   color: #ff843a;
   cursor: pointer;
 }
@@ -182,13 +214,12 @@ a:visited{
 }
 
 .rightarrow {
-      position: absolute;
-    bottom: 40px;
-    left: 48%;
-  color: black;
-  text-align: center;
-  padding-top: 30px;
-  font-size: 30px;
+  position: absolute;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    right: 100px;
+    bottom: 0px;
 }
 
 button{
@@ -211,10 +242,11 @@ body.darkmode {
   color: white;
 
   /*  redefine a CSS variable */
-  --accent-color: rgb(0,255,0);
+  --accent-color: #3a5cff;
 }
 
 body.darkmode button{
   color: white;
 }
+
 

@@ -1,5 +1,5 @@
 body{
-  background-color: #c6c8fd;;
+  background-color: #ffd2de;;
   display: flex;
   }
 
@@ -30,14 +30,16 @@ p{
 h1 {
   font-size: 7rem;
   text-align: center;
-  color: #3a5cff;
+  color: #ff2d70;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1rem;
   padding-bottom: 20px;
-  color: #3a5cff;
+  color: #0023ca;
   line-height: 140%;
+  text-align: center;
+
 }
 
 p {
@@ -47,6 +49,20 @@ p {
 
 .space {
   padding: 50px;
+}
+
+.homeimg {
+  position: absolute;
+  object-fit: cover;
+  width: 90px;
+  height: 90px;
+  left: 10px;
+  top: -105px;
+}
+
+.homeimg:hover {
+  cursor: pointer;
+  color: #8cfcca;
 }
 
 nav {
@@ -104,8 +120,14 @@ nav {
   padding: 20px 20px;
 }
 
-a:visited{
-  color: #8cfcca;
+a{
+  text-decoration: none;
+  color: #ffd22a;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #3a5cff;
 }
 
 .cover {
@@ -114,14 +136,14 @@ a:visited{
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: #8cfcca;
-  opacity: 0.5;
+  background: #b1b0b0;
+  opacity: 50%;
   z-index: -20;
 }
 
 .containertab1:hover{
   border-radius: 50px 50px 50px 50px;
-  background-color: #3a5cff;
+  background-color: #3aadff;
   color: #ff843a;
   cursor: pointer;
 }
@@ -147,17 +169,41 @@ a:visited{
   cursor: pointer;
 }
 
-.rightarrow {
-  color: black;
-  text-align: center;
-  padding-top: 30px;
+.cell {
+  padding: 20px;
+  font-size: 20px;
+  line-height: 140%;
+  border-top: 2px solid #ff2d70;
+  opacity: 10%;
+}
+
+.cell:hover{
+  opacity: 100%;
+  background-color: #0023ca;
+  color: #ffffff;
+}
+
+.pinkright {
+  position: absolute;
+  object-fit: cover;
+  height: 150px;
+  right: 100px;
+    bottom: -3800px;
+}
+
+.pinkleft {
+  position: absolute;
+  object-fit: cover;
+  height: 150px;
+  left: 100px;
+    top: 20px;
 }
 
 button{
   font-size: 1rem;
   font-weight: bold;
   border: 2px solid var(--accent-color);
-  background: #c73ed2;
+  background: #ffd229;
   padding: 0.5rem;
   margin-bottom: 1rem;
   border-radius: 5px 5px 5px 5px;
@@ -169,7 +215,7 @@ button:hover{
 }
 
 body.darkmode {
-  background: #ff55a3;
+  background: black;
   color: white;
 
   /*  redefine a CSS variable */
