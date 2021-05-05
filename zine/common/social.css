@@ -227,3 +227,8 @@ body.darkmode {
 body.darkmode button{
   color: white;
 }
+
+@media screen and (max-width: 900px){
+  main{
+    width: 90%;
+  }
