@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "Jaune-Bold";
+  src: url("jaune/Jaunev0.8-GrandeExtraBold_TRIAL.otf") format("opentype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Jaune";
+  src: url("jaune/Jaunev0.8-GrandeLight_TRIAL.otf") format("opentype");
+  font-weight: 800;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+main {
+	margin: 0.5rem;
+	width: 70%;
+	text-align: center;
+	margin: auto;
+}
+
+h1 {
+	font-family: "Jaune-Bold", slab-serif;
+	font-weight: 800;
+	font-size: 7rem;
+}
+
+h2 {
+	font-family: "Jaune", slab-serif;
+	font-weight: 600;
+	font-size: 2.5rem;
+	position: relative;
+	top: -70px;
+	color: #5757f9;
+	letter-spacing: 2px;
+}
+
+h4 {
+	font-family:"Jaune", slab-serif ;
+	position: relative;
+	top: -100px;
+	letter-spacing: 1px;
+
+}
+
+h5 {
+	font-family: "Jaune-Bold", slab-serif;
+	font-weight: 800;
+	font-size: 2rem;
+	padding: 5px;
+	align-content: center;
+}
+
+p {
+	font-family: "Jaune", slab-serif;
+	padding: 50px;
+    letter-spacing: 1px;
+    position: absolute;
+    height: 50px;
+    top: 5px;
+}
+
+a {
+	font-family: "Jaune-bold", slab-serif;
+	letter-spacing: 1px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+    color: black;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+a:hover {
+	color: white;
+	background-color:black;
+	padding: 5px;
+}
+
+.bluebox {
+	width: 900px;
+	height: 300px;
+	background-color: #5757f9;
+}
+
+span.stretch {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    display: inline-block;
+    margin: 35px;
+    transform: scale(1, 3);
+    color: #efb124;
+}
+
+span.stretch:hover{
+	color: #bcef24;
+}
+
+.container{
+position: relative;
+top: -100px;
+}
+
+
+.item{
+	border-radius: 50px 50px 50px 50px;
+  background-color:#efb124;
+  color: #5757f9;
+  cursor: pointer;
+}
+
+.item:hover {
+	background-color: #bcef24;
+}
+
+.heading h5::before{
+	content: '+';
+	display: inline-block;
+	width: 30px;
+}
+
+.details{
+	line-height: 1.3;
+	color: black;
+	display: none;
+	height: 0px;
+	overflow: hidden;
+	transition: height 400ms ease-in-out;*/
+}
+
+.active .heading h5::before{
+	content: '-';
+}
+.active .details{
+	display: block;
+	height: 300px;*/
+}
